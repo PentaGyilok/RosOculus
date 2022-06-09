@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637898517590000000
-    m_Hash: 2470195462
+      ticks: 637903629980000000
+    m_Hash: 3172302925
   m_LockFileStatus:
     m_FilePath: /home/marcell/UnityProjets/PentekJun3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637898517590000000
-    m_Hash: 971021389
+      ticks: 637903629980000000
+    m_Hash: 3694826166
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -468,6 +468,52 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
+- packageId: com.unity.robotics.ros-tcp-connector@https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector#v0.7.1
+  testable: 0
+  isDirectDependency: 1
+  version: 0.7.1-preview
+  source: 5
+  resolvedPath: /home/marcell/UnityProjets/PentekJun3/Library/PackageCache/com.unity.robotics.ros-tcp-connector@3288e188a2
+  assetPath: Packages/com.unity.robotics.ros-tcp-connector
+  name: com.unity.robotics.ros-tcp-connector
+  displayName: ROS TCP Connector
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Bridge components and message generation allowing Unity to communicate
+    with ROS and ROS2 services
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
@@ -913,6 +959,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 2.0.0
     - 2.0.1
+    - 2.0.2
     compatible:
     - 0.1.5-preview
     - 0.1.6-preview
@@ -931,6 +978,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 2.0.0
     - 2.0.1
+    - 2.0.2
     verified: 
   dependencies:
   - name: com.unity.sysroot
@@ -1314,14 +1362,17 @@ m_ResolvedPackages:
     - 2.0.0-preview.2
     - 2.0.0-preview.4
     - 2.0.0-preview.5
+    - 2.0.2-preview.1
     - 3.0.0-pre.1
     - 3.0.0-pre.2
     - 3.0.0-pre.4
     - 3.0.0
     - 3.0.1
+    - 3.0.2
     compatible:
     - 3.0.1
-    verified: 3.0.1
+    - 3.0.2
+    verified: 3.0.2
   dependencies:
   - name: com.unity.xr.management
     version: 4.2.0
@@ -3303,6 +3354,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 2.0.0
     - 2.0.2
+    - 2.0.3
     compatible:
     - 0.1.7-preview
     - 0.1.8-preview
@@ -3319,6 +3371,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 2.0.0
     - 2.0.2
+    - 2.0.3
     verified: 
   dependencies: []
   resolvedDependencies: []
@@ -3379,6 +3432,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 2.0.0
     - 2.0.1
+    - 2.0.2
     compatible:
     - 0.1.6-preview
     - 0.1.7-preview
@@ -3393,6 +3447,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 2.0.0
     - 2.0.1
+    - 2.0.2
     verified: 
   dependencies:
   - name: com.unity.sysroot

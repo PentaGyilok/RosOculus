@@ -63,19 +63,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2432}
+      Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 2504}
+      Script: {instanceID: 2502}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 5248}
     - Class: 114
-      Script: {instanceID: 6012}
+      Script: {instanceID: 6010}
     - Class: 114
-      Script: {instanceID: 6788}
+      Script: {instanceID: 6786}
     - Class: 114
-      Script: {instanceID: 8328}
+      Script: {instanceID: 8326}
     - Class: 114
-      Script: {instanceID: 10488}
+      Script: {instanceID: 10486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3487,7 +3487,31 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: 646c44786b4a608dd2787126fa212afc
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector.ROSGeometry
+    className: GeometryCompass
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: HudPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 3eb58f8becdebce8129e3a11c46028eb
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: TFAttachment
+  - hash:
+      serializedVersion: 2
+      Hash: 890cb052c5524ab8c3c61cc7da03bc84
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: ROSConnection
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/marcell/UnityProjets/PentekJun3/BuildedCucc/Build1.apk
+  playerPath: /home/marcell/UnityProjets/PentekJun3/BuildedCucc/Build2.apk

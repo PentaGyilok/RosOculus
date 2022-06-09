@@ -9,6 +9,7 @@ android.permission.INTERNET was added because:
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
 	System.Net.Sockets was present in:
 		Oculus.VR-FeaturesChecked.txt
+		Unity.Robotics.ROSTCPConnector-FeaturesChecked.txt
 	UnityEngine.Network was present in:
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
