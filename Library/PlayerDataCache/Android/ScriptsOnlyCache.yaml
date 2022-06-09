@@ -12,6 +12,12 @@ ScriptsOnlyBuild:
     - OVRRuntimeSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Robotics.Visualizations.dll:
+    - JoyVisualizerSettings
+    - LaserScanVisualizerSettings
+    - MultiEchoLaserScanVisualizerSettings
+    - PointCloud2VisualizerSettings
+    - PointCloudVisualizerSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -27,6 +33,8 @@ ScriptsOnlyBuild:
   serializedClasses:
     Oculus.VR.Editor:
     - Assets.Oculus.VR.Editor.AssetConfigList
+    Unity.Robotics.Visualizations:
+    - Unity.Robotics.Visualizations.TFTrackingSettings
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -63,19 +71,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2430}
+      Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2546}
     - Class: 114
-      Script: {instanceID: 5248}
+      Script: {instanceID: 5446}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 6238}
     - Class: 114
-      Script: {instanceID: 6786}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 8326}
+      Script: {instanceID: 8690}
     - Class: 114
-      Script: {instanceID: 10486}
+      Script: {instanceID: 10936}
+    - Class: 114
+      Script: {instanceID: 27238}
+    - Class: 114
+      Script: {instanceID: 27302}
+    - Class: 114
+      Script: {instanceID: 27312}
+    - Class: 114
+      Script: {instanceID: 27314}
+    - Class: 114
+      Script: {instanceID: 27344}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -201,6 +219,12 @@ ScriptsOnlyBuild:
     className: HandsActiveChecker
   - hash:
       serializedVersion: 2
+      Hash: 646c44786b4a608dd2787126fa212afc
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector.ROSGeometry
+    className: GeometryCompass
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -219,16 +243,16 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: 26ee3d33d2c169773387c5fb07d886d5
-    assemblyName: Oculus.Interaction.dll
-    namespaceName: Oculus.Interaction
-    className: BecomeChildOfTargetOnStart
-  - hash:
-      serializedVersion: 2
       Hash: c1d9be4246ab13d27a33cc24074658c2
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRPointerVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 26ee3d33d2c169773387c5fb07d886d5
+    assemblyName: Oculus.Interaction.dll
+    namespaceName: Oculus.Interaction
+    className: BecomeChildOfTargetOnStart
   - hash:
       serializedVersion: 2
       Hash: 4b446e17aa38b3763425ec675126d7ad
@@ -1383,16 +1407,16 @@ ScriptsOnlyBuild:
     className: AppVoiceExperience
   - hash:
       serializedVersion: 2
-      Hash: 0c2ecdae097ba779e0a9e100ed96bb10
-    assemblyName: Oculus.VR.dll
-    namespaceName: 
-    className: OVRCameraRig
-  - hash:
-      serializedVersion: 2
       Hash: 4cf60f33168eb2faabe1619ee5e75895
     assemblyName: Oculus.Interaction.Samples.dll
     namespaceName: Oculus.Interaction.Samples
     className: CountdownTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 0c2ecdae097ba779e0a9e100ed96bb10
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRCameraRig
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1567,6 +1591,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 890cb052c5524ab8c3c61cc7da03bc84
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: ROSConnection
   - hash:
       serializedVersion: 2
       Hash: b240bf3d9d7b5cd60653ccf864071347
@@ -1933,6 +1963,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: DotGridProperties
+  - hash:
+      serializedVersion: 2
+      Hash: 3eb58f8becdebce8129e3a11c46028eb
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: TFAttachment
   - hash:
       serializedVersion: 2
       Hash: efe8ea635f4376b8b908a7f4ce18ef9f
@@ -3183,6 +3219,12 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Robotics.ROSTCPConnector.dll
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: HudPanel
+  - hash:
+      serializedVersion: 2
       Hash: e4d9ea9c1c4d3739e738fc062c7cb283
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -3405,16 +3447,16 @@ ScriptsOnlyBuild:
     className: TrackingToWorldTransformerOVR
   - hash:
       serializedVersion: 2
-      Hash: c76eff1ea36023656a8a30c87c55a36f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PassthroughStyler
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c76eff1ea36023656a8a30c87c55a36f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PassthroughStyler
   - hash:
       serializedVersion: 2
       Hash: 6dd4037cfee21201487b5758a3ac1afc
@@ -3489,28 +3531,34 @@ ScriptsOnlyBuild:
     className: TrackSegment
   - hash:
       serializedVersion: 2
-      Hash: 646c44786b4a608dd2787126fa212afc
-    assemblyName: Unity.Robotics.ROSTCPConnector.dll
-    namespaceName: Unity.Robotics.ROSTCPConnector.ROSGeometry
-    className: GeometryCompass
+      Hash: bff3c4eb1f58e1d87e0b75a601210961
+    assemblyName: Unity.Robotics.Visualizations.dll
+    namespaceName: 
+    className: MultiEchoLaserScanVisualizerSettings
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.Robotics.ROSTCPConnector.dll
-    namespaceName: Unity.Robotics.ROSTCPConnector
-    className: HudPanel
+      Hash: 4da43bdf130571051fc5d13c8bb06f84
+    assemblyName: Unity.Robotics.Visualizations.dll
+    namespaceName: 
+    className: PointCloudVisualizerSettings
   - hash:
       serializedVersion: 2
-      Hash: 3eb58f8becdebce8129e3a11c46028eb
-    assemblyName: Unity.Robotics.ROSTCPConnector.dll
-    namespaceName: Unity.Robotics.ROSTCPConnector
-    className: TFAttachment
+      Hash: c1819c337beaf60e1941a60b9a4c3009
+    assemblyName: Unity.Robotics.Visualizations.dll
+    namespaceName: 
+    className: LaserScanVisualizerSettings
   - hash:
       serializedVersion: 2
-      Hash: 890cb052c5524ab8c3c61cc7da03bc84
-    assemblyName: Unity.Robotics.ROSTCPConnector.dll
-    namespaceName: Unity.Robotics.ROSTCPConnector
-    className: ROSConnection
+      Hash: 7c8142ec32331f7e85660cab6678e99f
+    assemblyName: Unity.Robotics.Visualizations.dll
+    namespaceName: 
+    className: JoyVisualizerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: f8264bf39145edd3c9de3bc4e51f4f99
+    assemblyName: Unity.Robotics.Visualizations.dll
+    namespaceName: 
+    className: PointCloud2VisualizerSettings
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

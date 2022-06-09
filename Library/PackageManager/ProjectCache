@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637903629980000000
-    m_Hash: 3172302925
+      ticks: 637903692520000000
+    m_Hash: 3015439746
   m_LockFileStatus:
     m_FilePath: /home/marcell/UnityProjets/PentekJun3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637903629980000000
-    m_Hash: 3694826166
+      ticks: 637903692520000000
+    m_Hash: 1370227561
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -485,6 +485,51 @@ m_ResolvedPackages:
   type: 
   description: Bridge components and message generation allowing Unity to communicate
     with ROS and ROS2 services
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.robotics.visualizations@https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.visualizations#v0.7.1
+  testable: 0
+  isDirectDependency: 1
+  version: 0.7.1-preview
+  source: 5
+  resolvedPath: /home/marcell/UnityProjets/PentekJun3/Library/PackageCache/com.unity.robotics.visualizations@3288e188a2
+  assetPath: Packages/com.unity.robotics.visualizations
+  name: com.unity.robotics.visualizations
+  displayName: Unity Robotics Visualizations
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Components for displaying specific ROS messages
   status: 4
   errors: []
   versions:

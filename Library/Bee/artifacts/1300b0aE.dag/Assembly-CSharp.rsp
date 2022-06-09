@@ -354,6 +354,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Robotics.ROSTCPConnector.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Robotics.Visualizations.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Robotics.Visualizations.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Services.Core.Environments.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Services.Core.ref.dll"
